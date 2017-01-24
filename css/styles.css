@@ -1,0 +1,53 @@
+body {
+  background-color: plum;
+}
+
+.jumbotron {
+  background-color: turquoise;
+  color: lavenderblush;
+  padding-left: 30px;
+}
+
+.jumbotron img {
+  width: 250px;
+  position: absolute;
+  right: 20px;
+  top: 30px;
+}
+
+input:focus {
+  background-color: turquoise;
+  color: lavenderblush;
+}
+
+li input {
+  float: right;
+  height: 50px;
+}
+
+ul {
+  background-color: lavenderblush;
+  border-radius: 20px;
+}
+
+li {
+  font-size: 1.5em;
+  padding-right: 20px;
+  line-height: 60px;
+}
+
+#deleteBut {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron {
+    height: 500px;
+  }
+
+  .jumbotron img {
+    position: inherit;
+    width: 80vw;
+    padding-left: 10vw;
+    }
+}
